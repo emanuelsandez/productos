@@ -33,6 +33,9 @@ class AssetProdDetailActivity : AppCompatActivity() {
             addComment()
         }
 
+        val rt= binding.productRatingBar
+        rt.progress
+
     }
      fun addComment(){
         lifecycleScope.launchWhenCreated {

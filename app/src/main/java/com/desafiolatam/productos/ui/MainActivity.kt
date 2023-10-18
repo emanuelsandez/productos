@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
 
         recyclerView.adapter = adapter
 
+
         assetViewModel.allAssets.observe(this) {
                 assets -> assets.let { adapter.submitList(it)}
         }

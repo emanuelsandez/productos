@@ -13,10 +13,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
         android:contentDescription="asset_images"
+        android:src="@drawable/baseline_disabled_by_default_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/asset_title"/>
+        />
 
         <TextView
         android:id="@+id/asset_title"
@@ -29,7 +30,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/asset_images"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:padding="8dp" />
 
     <TextView

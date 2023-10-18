@@ -1,10 +1,8 @@
 package com.desafiolatam.productos.ui
 
-import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.viewModelScope
 import com.desafiolatam.productos.data.local.AssetEntityCat
 import com.desafiolatam.productos.data.local.AssetEntityProd

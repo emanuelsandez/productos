@@ -2,7 +2,6 @@ package com.desafiolatam.productos.utils
 
 import android.util.Log
 import com.desafiolatam.productos.ProductoApp
-import com.desafiolatam.productos.data.remote.PlatziRetrofitApi
 import com.desafiolatam.productos.data.remote.PlatziRetrofitClient
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
@@ -18,7 +17,6 @@ class UpdateData {
             launch(Dispatchers.IO) {
                 val service = PlatziRetrofitClient.retrofitInstance()
                 val response = service.getData()
-
                 val data = response.body()
 
                 val app = ProductoApp()

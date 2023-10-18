@@ -2,7 +2,11 @@ package com.desafiolatam.productos.ui
 
 import android.annotation.SuppressLint
 import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
+import com.desafiolatam.productos.R
 import com.desafiolatam.productos.data.local.AssetEntityCat
 import com.desafiolatam.productos.data.local.AssetEntityProd
 import com.desafiolatam.productos.databinding.ActivityAssetCatDetailBinding
@@ -31,5 +35,14 @@ class AssetDetailActivity : AppCompatActivity() {
         binding.assetPrice.text=assetp.price
         binding.assetCreationat.text=assetp.creationAt
 
+
+    }
+
+    companion object {
+        fun create(parent: ViewGroup): AssetListAdapter.AssetEntityViewHolder {
+            val view: View = LayoutInflater.from(parent.context)
+                .inflate(R.layout.asset_list_prod, parent, false)
+            return AssetListAdapter.AssetEntityViewHolder(view)
+        }
     }
 }

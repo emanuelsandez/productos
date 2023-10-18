@@ -23,6 +23,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="6dp"
             android:layout_marginBottom="6dp"
+            android:contentDescription="@string/imageCat"
             android:src="@drawable/baseline_disabled_by_default_24"
             app:layout_constraintEnd_toStartOf="@id/asset_namecategory"
             app:layout_constraintBottom_toBottomOf="parent"

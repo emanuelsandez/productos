@@ -9,7 +9,6 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.desafiolatam.productos.R
 import com.desafiolatam.productos.data.local.AssetEntityCat
-
 import com.desafiolatam.productos.databinding.AssetListCatBinding
 import com.squareup.picasso.Picasso
 
@@ -52,6 +51,8 @@ class AssetListAdapter(var itemClick: OnItemClickListener) : ListAdapter<AssetEn
                 return AssetEntityViewHolder(view)
             }
         }
+
+
     }
 
     class AssetsComparator : DiffUtil.ItemCallback<AssetEntityCat>() {

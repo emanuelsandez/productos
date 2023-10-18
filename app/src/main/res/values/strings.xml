@@ -8,4 +8,5 @@
     <string name="creationat">Fecha de Creación</string>
     <string name="description">Descripción del producto</string>
     <string name="comment">Escribe un comentario...</string>
+    <string name="imageCat">imagen categoría </string>
 </resources>
