@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Productos</string>
+    <string name="welcome">Categoría de Productos</string>
+    <string name="namecategory">Categoría</string>
+    <string name="title">Nombre del Producto</string>
+    <string name="price">Precio</string>
+    <string name="save">Guardar</string>
+    <string name="creationat">Fecha de Creación</string>
+    <string name="description">Descripción del producto</string>
+    <string name="comment">Escribe un comentario...</string>
+</resources>
